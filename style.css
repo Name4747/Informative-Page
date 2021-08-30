@@ -13,11 +13,20 @@ nav {
 header {
     background-color: rgb(47, 49, 58);
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 main {
     text-align: center;
+}
+
+p {
+    font-size: large;
 }
 
 div#demo {
@@ -25,14 +34,24 @@ div#demo {
     margin: auto;
 }
 
+.carousel-caption {
+    color: white;
+    font-family: Calibri;
+    font-size: 30px;
+    text-shadow: 2px 1px 3px black;
+}
+
 footer {
     background-color: rgb(47, 49, 58);
     height: 50px;
-    text-align: left;
-    color: rgb(255, 255, 255);
     margin-top: 500px;
-    padding-top: 1px;
     padding-left: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: left;
+    padding-top: 10px;
 }
 
 img#logo {
