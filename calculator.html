@@ -26,18 +26,38 @@
             <a class="buttons" href="availability.html" target="_self">Availability</a>
             <a class="buttons" href="images.html" target="_self">Images</a>
             <a class="buttons" href="contact.html" target="_self">Contact</a>
-            <a class="buttons" href="calculator.html" target="_self">Calculator</a>
         </nav>
 
         <main>
-            <h4>Welcome to Company!</h4>
-            <p>Company is all about making products.</p>
-            <p>We are a human owned business and are headquatered in place.</p>
+            <h4>Price Calculator</h4>
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname"/>
+                <br/>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname"/>
+                <br/>
+                <label for="email">Email</label>
+                <input type="email" id="email"/>
+                <br/>
+                <select name="product" id="product">
+                    <option value="p1">Keyboard</option>
+                    <option value="p2">Monitor</option>
+                    <option value="p3">Live Mouse</option>
+                </select>
+                <br/>
+                <label for="quantity">Quantity</label>
+                <input type="number" step="1" min="1" name="quantity" id="quantity">
+                <br/>
+                <label for="total">Total: </label>
+                <input type="text" name="total" id="total" >
+            </form>
         </main>
 
         <footer>
             <img id="logo" src="logo.png" width="30px"/>
             <p>Report website problems to: awdawd@awd.awd</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
